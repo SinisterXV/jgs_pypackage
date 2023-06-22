@@ -1,1 +1,1 @@
-from utils import *
+from jgs_pypackage.funcs import * 
