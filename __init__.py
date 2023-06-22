@@ -1,1 +1,1 @@
-from jgs_pypackage.funcs import * 
+from jgs_pypackage.funcs import list2bin, randomInts

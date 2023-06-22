@@ -1,8 +1,6 @@
 import random
 import numpy as np
 
-rng = random.SystemRandom()
-
 def list2bin(list: list[int] = [], width: int = 32) -> list[str]:
     """This function returns the binary representation of `list` on `width` bits """
     binList = []
@@ -15,6 +13,7 @@ def list2bin(list: list[int] = [], width: int = 32) -> list[str]:
 
 def randomInts(signed: bool = False, amount: int = 10, width: int = 32) -> list[int]:
     """This function returns a list of `amount` integers, signed or unsigned, representable with `width` bits """
+    rng = random.SystemRandom()
     intList = []
     
     if (signed):
