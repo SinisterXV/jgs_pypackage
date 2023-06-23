@@ -1,3 +1,3 @@
-# jgsPyPackage
+# jgs_PyPackage
 
-My python scripts package
+To install this package, put the files into `%pythonInstallDir%\Lib\site-packages\jgs_pypackage\`
